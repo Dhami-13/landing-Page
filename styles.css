@@ -1,17 +1,17 @@
 body {
-    margin: 0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-}
-.hero,.footer {
-    background-color: black;
 }
 .hero {
     display: flex;
     flex-direction: column;
     color: aliceblue;
+    background-color: black;
+    padding: 0 40px;
 }
 header {
     padding: 8px 40px;
@@ -20,7 +20,7 @@ header {
     align-items: center;
 }
 .logo img {
-    max-width: 70px;
+    max-width: 100px;
     height: auto;
 }
 ul {
@@ -29,7 +29,7 @@ ul {
     margin: 0;
     margin-left: auto;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 li a {
     font-size: 18px;
@@ -47,12 +47,20 @@ li a {
 .hero-text {
     display: flex;
     flex-direction: column;
-
+    gap: 10px;
+}
+#sign {
+    border-color: black;
 }
 .main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+.sec-text {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
 }
 .main-img img {
     max-width: 600px;
@@ -63,6 +71,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #744909;
 }
 .bounty {
     font-size: 36px;
@@ -81,17 +90,65 @@ li a {
     align-items: center;
 }
 .poster img {
-    max-width: 240px;
+    max-width: 250px;
     height: auto;
 }
 .says {
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
     padding: 8px;
 }
-
-
+.bot {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 64px;
+    justify-content: center;
+    align-items: center;
+}
+.quotes{
+    font: lighter;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.byy {
+    font-size: 24px;
+    color: rgb(24, 24, 24);
+    font-weight: bold;
+    margin-left: 800px;
+}
+.signup {
+    margin: 64px;
+    background-color: #3882f6;
+    display: flex;
+    color: white;
+    padding: 48px 86px;
+    gap: 16px;
+    border-radius: 8px;
+}
+.adventure {
+    font-size: 24px;
+    font-weight: bold
+}
+button {
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+    font-size: 16px;
+    padding: 10px 25px;
+    min-width: 100px;
+    max-width: 110px;
+    border-width: 2px;
+    border-color: white;
+    outline: none;
+}
 .footer {
+    background-color: black;
+    min-width: 100%;
     color: white;
     text-align: center;
-    padding: 8px;
-    width: 100%;
+    padding: 32px 0;
+    font-size: 20px;
 }
