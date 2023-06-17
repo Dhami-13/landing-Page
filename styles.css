@@ -1,23 +1,97 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
-}
+    align-items: center;
 
-.container {
-    display: flex;
-    flex-direction: column;
 }
-
-.mid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.hero,.footer {
+    background-color: black;
 }
-img {
-    max-width: 300px;
-    height: auto;
-}
-
 .hero {
     display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+header {
+    padding: 8px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img {
+    max-width: 70px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    padding: o;
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+li a {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.top {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    padding-bottom: 40px;
+    gap: 16px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.main-img img {
+    max-width: 600px;
+    height: auto;
+}
+.contain {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bounty {
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 16px;
+}
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poster img {
+    max-width: 240px;
+    height: auto;
+}
+.says {
+    padding: 8px;
+}
+
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
 }
