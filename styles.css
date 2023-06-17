@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+}
